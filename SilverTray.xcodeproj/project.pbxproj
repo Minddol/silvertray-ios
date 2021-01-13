@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,14 +19,10 @@
 		7365083224628EDE00EF4549 /* Collection+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365081324628EDD00EF4549 /* Collection+Convenience.swift */; };
 		7365083324628EDE00EF4549 /* AudioDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365081524628EDD00EF4549 /* AudioDecodable.swift */; };
 		7365083424628EDE00EF4549 /* OpusDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365081624628EDD00EF4549 /* OpusDecoder.swift */; };
-		7365083524628EDE00EF4549 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081A24628EDD00EF4549 /* opus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083624628EDE00EF4549 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081B24628EDD00EF4549 /* opus_multistream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083724628EDE00EF4549 /* opus_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081C24628EDD00EF4549 /* opus_custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083824628EDE00EF4549 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081D24628EDD00EF4549 /* opus_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083924628EDE00EF4549 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081E24628EDD00EF4549 /* opus_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083A24628EDE00EF4549 /* opus_projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365081F24628EDD00EF4549 /* opus_projection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7365083D24628EDE00EF4549 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7365082624628EDD00EF4549 /* libopus.a */; };
 		73650889246D4F3C00EF4549 /* SilverTray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73650888246D4F3C00EF4549 /* SilverTray.swift */; };
+		7E341E9925AE9ED800734A45 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E341E9725AE9ED800734A45 /* Package.swift */; };
+		7E341E9A25AE9ED800734A45 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E341E9825AE9ED800734A45 /* README.md */; };
+		7E341EA025AEA7D200734A45 /* Opus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E341E9F25AEA7D200734A45 /* Opus.xcframework */; };
 		7E553C76251326F0008E4D89 /* STUnifiedErrorCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E553C74251326F0008E4D89 /* STUnifiedErrorCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E553C77251326F0008E4D89 /* STUnifiedErrorCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E553C75251326F0008E4D89 /* STUnifiedErrorCatcher.m */; };
 /* End PBXBuildFile section */
@@ -46,15 +42,11 @@
 		7365081324628EDD00EF4549 /* Collection+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Convenience.swift"; sourceTree = "<group>"; };
 		7365081524628EDD00EF4549 /* AudioDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDecodable.swift; sourceTree = "<group>"; };
 		7365081624628EDD00EF4549 /* OpusDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpusDecoder.swift; sourceTree = "<group>"; };
-		7365081A24628EDD00EF4549 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
-		7365081B24628EDD00EF4549 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
-		7365081C24628EDD00EF4549 /* opus_custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_custom.h; sourceTree = "<group>"; };
-		7365081D24628EDD00EF4549 /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
-		7365081E24628EDD00EF4549 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
-		7365081F24628EDD00EF4549 /* opus_projection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_projection.h; sourceTree = "<group>"; };
-		7365082624628EDD00EF4549 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
 		7365082924628EDD00EF4549 /* SilverTray.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SilverTray.modulemap; sourceTree = "<group>"; };
 		73650888246D4F3C00EF4549 /* SilverTray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilverTray.swift; sourceTree = "<group>"; };
+		7E341E9725AE9ED800734A45 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		7E341E9825AE9ED800734A45 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E341E9F25AEA7D200734A45 /* Opus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Opus.xcframework; sourceTree = "<group>"; };
 		7E553C74251326F0008E4D89 /* STUnifiedErrorCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUnifiedErrorCatcher.h; sourceTree = "<group>"; };
 		7E553C75251326F0008E4D89 /* STUnifiedErrorCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUnifiedErrorCatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7365083D24628EDE00EF4549 /* libopus.a in Frameworks */,
+				7E341EA025AEA7D200734A45 /* Opus.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +75,10 @@
 		736507F324628E7B00EF4549 = {
 			isa = PBXGroup;
 			children = (
-				736507FF24628E7B00EF4549 /* SilverTray */,
+				7E341E9725AE9ED800734A45 /* Package.swift */,
+				7E341E9825AE9ED800734A45 /* README.md */,
+				7365080824628EDD00EF4549 /* Sources */,
+				7365081724628EDD00EF4549 /* Libraries */,
 				736507FE24628E7B00EF4549 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,40 +91,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		736507FF24628E7B00EF4549 /* SilverTray */ = {
+		7365080824628EDD00EF4549 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7365080824628EDD00EF4549 /* Classes */,
-				7365081724628EDD00EF4549 /* Libraries */,
 				7365082924628EDD00EF4549 /* SilverTray.modulemap */,
 				7365080124628E7B00EF4549 /* Info.plist */,
+				7365081824628EDD00EF4549 /* SilverTray-Opus */,
+				7E341E9225AE9AE200734A45 /* SilverTray-ObjC */,
+				7E341E9C25AEA57A00734A45 /* SilverTray */,
 			);
-			path = SilverTray;
-			sourceTree = "<group>";
-		};
-		7365080824628EDD00EF4549 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7319586B250205AB0026B052 /* Engine */,
-				73650888246D4F3C00EF4549 /* SilverTray.swift */,
-				7365080924628EDD00EF4549 /* DataStreamPlayerState.swift */,
-				7365080A24628EDD00EF4549 /* DataStreamPlayer.swift */,
-				7365080B24628EDD00EF4549 /* DataStreamPlayerDelegate.swift */,
-				7365080C24628EDD00EF4549 /* SilverTray.h */,
-				7365080D24628EDD00EF4549 /* Codec.swift */,
-				7365080E24628EDD00EF4549 /* DataStreamPlayerError.swift */,
-				7365080F24628EDD00EF4549 /* Utils */,
-				7365081224628EDD00EF4549 /* Extensions */,
-				7365081424628EDD00EF4549 /* Decoders */,
-			);
-			path = Classes;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		7365080F24628EDD00EF4549 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7E553C74251326F0008E4D89 /* STUnifiedErrorCatcher.h */,
-				7E553C75251326F0008E4D89 /* STUnifiedErrorCatcher.m */,
 				73195870250205B50026B052 /* Atomic.swift */,
 			);
 			path = Utils;
@@ -155,47 +131,51 @@
 		7365081724628EDD00EF4549 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				7365081824628EDD00EF4549 /* Opus */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		7365081824628EDD00EF4549 /* Opus */ = {
+		7365081824628EDD00EF4549 /* SilverTray-Opus */ = {
 			isa = PBXGroup;
 			children = (
-				7365081924628EDD00EF4549 /* include */,
-				7365082024628EDD00EF4549 /* Binary */,
+				7E341E9F25AEA7D200734A45 /* Opus.xcframework */,
 			);
-			path = Opus;
+			path = "SilverTray-Opus";
 			sourceTree = "<group>";
 		};
-		7365081924628EDD00EF4549 /* include */ = {
+		7E341E9225AE9AE200734A45 /* SilverTray-ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				7365081A24628EDD00EF4549 /* opus.h */,
-				7365081B24628EDD00EF4549 /* opus_multistream.h */,
-				7365081C24628EDD00EF4549 /* opus_custom.h */,
-				7365081D24628EDD00EF4549 /* opus_types.h */,
-				7365081E24628EDD00EF4549 /* opus_defines.h */,
-				7365081F24628EDD00EF4549 /* opus_projection.h */,
+				7E341E9E25AEA6EC00734A45 /* include */,
+				7E553C75251326F0008E4D89 /* STUnifiedErrorCatcher.m */,
+			);
+			path = "SilverTray-ObjC";
+			sourceTree = "<group>";
+		};
+		7E341E9C25AEA57A00734A45 /* SilverTray */ = {
+			isa = PBXGroup;
+			children = (
+				7319586B250205AB0026B052 /* Engine */,
+				73650888246D4F3C00EF4549 /* SilverTray.swift */,
+				7365080924628EDD00EF4549 /* DataStreamPlayerState.swift */,
+				7365080A24628EDD00EF4549 /* DataStreamPlayer.swift */,
+				7365080B24628EDD00EF4549 /* DataStreamPlayerDelegate.swift */,
+				7365080C24628EDD00EF4549 /* SilverTray.h */,
+				7365080D24628EDD00EF4549 /* Codec.swift */,
+				7365080E24628EDD00EF4549 /* DataStreamPlayerError.swift */,
+				7365080F24628EDD00EF4549 /* Utils */,
+				7365081224628EDD00EF4549 /* Extensions */,
+				7365081424628EDD00EF4549 /* Decoders */,
+			);
+			path = SilverTray;
+			sourceTree = "<group>";
+		};
+		7E341E9E25AEA6EC00734A45 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7E553C74251326F0008E4D89 /* STUnifiedErrorCatcher.h */,
 			);
 			path = include;
-			sourceTree = "<group>";
-		};
-		7365082024628EDD00EF4549 /* Binary */ = {
-			isa = PBXGroup;
-			children = (
-				7365082524628EDD00EF4549 /* iOS */,
-			);
-			path = Binary;
-			sourceTree = "<group>";
-		};
-		7365082524628EDD00EF4549 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7365082624628EDD00EF4549 /* libopus.a */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,12 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7365082D24628EDE00EF4549 /* SilverTray.h in Headers */,
-				7365083924628EDE00EF4549 /* opus_defines.h in Headers */,
-				7365083824628EDE00EF4549 /* opus_types.h in Headers */,
-				7365083624628EDE00EF4549 /* opus_multistream.h in Headers */,
-				7365083A24628EDE00EF4549 /* opus_projection.h in Headers */,
-				7365083724628EDE00EF4549 /* opus_custom.h in Headers */,
-				7365083524628EDE00EF4549 /* opus.h in Headers */,
 				7E553C76251326F0008E4D89 /* STUnifiedErrorCatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E341E9A25AE9ED800734A45 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +271,7 @@
 				7365083324628EDE00EF4549 /* AudioDecodable.swift in Sources */,
 				7365082B24628EDE00EF4549 /* DataStreamPlayer.swift in Sources */,
 				7365082F24628EDE00EF4549 /* DataStreamPlayerError.swift in Sources */,
+				7E341E9925AE9ED800734A45 /* Package.swift in Sources */,
 				7365082A24628EDE00EF4549 /* DataStreamPlayerState.swift in Sources */,
 				7E553C77251326F0008E4D89 /* STUnifiedErrorCatcher.m in Sources */,
 				7365083424628EDE00EF4549 /* OpusDecoder.swift in Sources */,

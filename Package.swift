@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 //
 //  Package.swift
 //
@@ -32,15 +32,16 @@ let package = Package(
         ),
     ],
     targets: [
+        .binaryTarget(
+            name: "SilverTray-Opus",
+            path: "Sources/SilverTray-Opus/Opus.xcframework"
+        ),
+        .target(
+            name: "SilverTray-ObjC"
+        ),
         .target(
             name: "SilverTray",
-            path: "SilverTray",
-            exclude: [
-                "Frameworks"
-            ],
-            cSettings: [
-                .headerSearchPath("Libraries/**")
-            ]
+            dependencies: ["SilverTray-Opus", "SilverTray-ObjC"]
         )
     ],
     swiftLanguageVersions: [
