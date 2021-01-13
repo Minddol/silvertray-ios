@@ -34,7 +34,13 @@ let package = Package(
     targets: [
         .target(
             name: "SilverTray",
-            path: "SilverTray"
+            path: "SilverTray",
+            exclude: [
+                "Frameworks"
+            ],
+            cSettings: [
+                .headerSearchPath("Libraries/**")
+            ]
         )
     ],
     swiftLanguageVersions: [
